@@ -1,10 +1,10 @@
-package ru.job4j;
+package ru.job4j.calculator;
 
-public class Club
+public class Cinema
 {
-    public static void permission(boolean hasMoney, boolean beFriend) {
-        if (hasMoney ||  beFriend) {
-            System.out.println("I can go to the club.");
+    public static void permission(boolean allowByParent, boolean hasMoney) {
+        if ( allowByParent && hasMoney) {
+            System.out.println("I can go to the cinema.");
         } else {
             System.out.println("I can't.");
         }

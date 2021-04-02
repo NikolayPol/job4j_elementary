@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.calculator;
 
 public class LogicNot {
     public static boolean isEven(int num) {
