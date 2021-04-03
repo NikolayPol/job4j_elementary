@@ -1,9 +1,11 @@
-package ru.job4j.loop;
+package ru.job4j.array;
+
+import ru.job4j.loop.CheckPrimeNumber;
 
 public class PrimeNumber {
     public static int calc(int finish) {
         int count = 0;
-        for (int number = 1; number < finish; number++) {
+        for (int number = 2; number <= finish; number++) {
             if (CheckPrimeNumber.check(number)) {
                 count++;
             }
