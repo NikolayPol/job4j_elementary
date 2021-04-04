@@ -13,6 +13,7 @@ public class ArrayCharTest {
         char[] pref = {'H', 'e'};
         boolean result = ArrayChar.startsWith(word, pref);
         Assert.assertTrue(result);
+
     }
 
     @Test
